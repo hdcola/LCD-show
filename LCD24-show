@@ -15,7 +15,7 @@ sudo cp ./boot/config-28.txt /boot/config.txt
 nodeplatform=`uname -n`
 kernel=`uname -r`
 version=`uname -v`
-if test "$nodeplatform" = "raspberrypi";then
+if [ "$nodeplatform" = "raspberrypi" ] || [ "$nodeplatform" = "mossbian" ] || [ "$nodeplatform" = "hassbian" ] ;then
 echo "this is raspberrypi kernel"
 version=${version%% *}
 version=${version#*#}
