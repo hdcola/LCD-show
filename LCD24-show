@@ -37,4 +37,4 @@ fi
 else
 echo "this is not raspberrypi kernel, no need to update touch configure, reboot"
 fi
-sudo reboot
+echo "please sudo reboot"
