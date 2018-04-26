@@ -16,14 +16,14 @@ Update: <br>
   Add xserver-xorg-input-evdev_1%3a2.10.3-1_armhf.deb to support Raspbian-2017-03-02<br>
 Update: <br>
   v1.1-20160815<br><br>
-  
+
 1.)Step1, Install Raspbian official mirror <br>
 ====================================================
   a)Download Raspbian official mirror:<br>
   https://www.raspberrypi.org/downloads/<br>
   b)Use“SDFormatter.exe”to Format your TF Card<br>
   c)Use“Win32DiskImager.exe” Burning mirror to TF Card<br>
-     
+
 2.) Step2, Clone my repo onto your pi<br>
 ====================================================
 Use SSH to connect the raspberry pi, <br>
@@ -31,10 +31,10 @@ And Ensure that the raspberry pi is connected to the Internet before executing t
 -----------------------------------------------------------------------------------------------------
 
 ```sudo rm -rf LCD-show```<br>
-```git clone https://github.com/goodtft/LCD-show.git```<br>
+```git clone https://github.com/hdcola/LCD-show.git```<br>
 ```chmod -R 755 LCD-show```<br>
 ```cd LCD-show/```<br>
-  
+
 3.)Step3, According to your LCD's type, excute:
 ====================================================
 In case of 2.4" RPi Display(MPI2401)<br>
@@ -65,5 +65,3 @@ Wait a few minutes,the system will restart automaticall , enjoy with your LCD.
 The LCD-show.tar.gz also can be download from:
 http://www.hellolcd.com/wiki/LCD-show
 <br><br>
-
-
